@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+#toast{
+    margin: 20px 30px;
+    position: absolute;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 10px lightgray;
+    border-radius: 4%;
+}
+
+.dropdown{
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+.mybutton{
+    margin-top: 25px;
+}
