@@ -16,7 +16,7 @@ function Toast(){
     }
 
    const toastStyle = {
-        xPosition:'absolute',
+        position:'absolute',
         left:xPosition==='left'?'0%':null,
         right:xPosition==='right'?'0%':null,
         bottom:yPosition==='bottom'?'0%':null,
@@ -49,7 +49,7 @@ function Toast(){
     }
 
     return (
-        <div >
+        <div className='toastParent' >
            <div id='toast' style={toastStyle}>
                 Toast Message # order Confirmed
            </div>
